@@ -20,4 +20,12 @@ class HomeController extends BaseController {
 		return View::make('hello');
 	}
 
+	/*
+	*public function index
+	*/
+
+	public function index() {
+		return echo "Hello World";
+	}
+
 }
